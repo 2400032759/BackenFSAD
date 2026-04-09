@@ -1,0 +1,600 @@
+[INFO] Scanning for projects...
+Downloading from central: https://repo.maven.apache.org/maven2/org/flywaydb/maven-metadata.xml
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/maven-metadata.xml
+Downloading from central: https://repo.maven.apache.org/maven2/org/cyclonedx/maven-metadata.xml
+Downloading from central: https://repo.maven.apache.org/maven2/io/github/git-commit-id/maven-metadata.xml
+Progress (1): 255 BProgress (2): 255 B | 249 BProgress (3): 255 B | 249 B | 243 BProgress (4): 255 B | 249 B | 243 B | 234 B                                           Downloaded from central: https://repo.maven.apache.org/maven2/org/flywaydb/maven-metadata.xml (234 B at 215 B/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/org/cyclonedx/maven-metadata.xml (243 B at 222 B/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/io/github/git-commit-id/maven-metadata.xml (255 B at 233 B/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/boot/maven-metadata.xml (249 B at 226 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/liquibase/maven-metadata.xml
+Downloading from central: https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/maven-metadata.xml
+Downloading from central: https://repo.maven.apache.org/maven2/org/graalvm/buildtools/maven-metadata.xml
+Downloading from central: https://repo.maven.apache.org/maven2/org/jooq/maven-metadata.xml
+Progress (1): 394 BProgress (2): 394 B | 375 BProgress (3): 394 B | 375 B | 398 B                                   Downloaded from central: https://repo.maven.apache.org/maven2/org/liquibase/maven-metadata.xml (394 B at 6.3 kB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/maven-metadata.xml (375 B at 6.0 kB/s)
+Progress (2): 398 B | 242 B                           Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/maven-metadata.xml
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-metadata.xml
+Downloaded from central: https://repo.maven.apache.org/maven2/org/jooq/maven-metadata.xml (398 B at 5.4 kB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/org/graalvm/buildtools/maven-metadata.xml (242 B at 3.0 kB/s)
+Progress (1): 4.6 kBProgress (2): 4.6 kB | 3.1 kBProgress (2): 9.7 kB | 3.1 kBProgress (2): 9.7 kB | 7.7 kBProgress (2): 14 kB | 7.7 kB Progress (2): 14 kB | 12 kB Progress (2): 14 kB | 17 kBProgress (2): 14 kB | 20 kBProgress (2): 14 kB | 21 kB                           Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-metadata.xml (14 kB at 213 kB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/maven-metadata.xml (21 kB at 168 kB/s)
+[INFO] 
+[INFO] -------------------------< com.klu:edumanage >--------------------------
+[INFO] Building EduManage ERP 1.0.0
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> spring-boot:3.4.4:run (default-cli) > test-compile @ edumanage >>>
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ edumanage ---
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO] Copying 0 resource from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (default-compile) @ edumanage ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ edumanage ---
+[INFO] skip non existing resourceDirectory C:\Users\VISHWAS\Downloads\project\project\src\test\resources
+[INFO] 
+[INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ edumanage ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] 
+[INFO] <<< spring-boot:3.4.4:run (default-cli) < test-compile @ edumanage <<<
+[INFO] 
+[INFO] 
+[INFO] --- spring-boot:3.4.4:run (default-cli) @ edumanage ---
+[INFO] Attaching agents: []
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.4.4)
+
+2026-04-07T00:04:07.883+05:30  INFO 37452 --- [edumanage] [  restartedMain] com.klu.project.ProjectApplication       : Starting ProjectApplication using Java 17.0.18 with PID 37452 (C:\Users\VISHWAS\Downloads\project\project\target\classes started by VISHWAS in C:\Users\VISHWAS\Downloads\project\project)
+2026-04-07T00:04:07.891+05:30 DEBUG 37452 --- [edumanage] [  restartedMain] com.klu.project.ProjectApplication       : Running with Spring Boot v3.4.4, Spring v6.2.5
+2026-04-07T00:04:07.892+05:30  INFO 37452 --- [edumanage] [  restartedMain] com.klu.project.ProjectApplication       : No active profile set, falling back to 1 default profile: "default"
+2026-04-07T00:04:08.016+05:30  INFO 37452 --- [edumanage] [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-04-07T00:04:08.016+05:30  INFO 37452 --- [edumanage] [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-04-07T00:04:10.695+05:30  INFO 37452 --- [edumanage] [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-04-07T00:04:10.939+05:30  INFO 37452 --- [edumanage] [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 227 ms. Found 11 JPA repository interfaces.
+2026-04-07T00:04:12.418+05:30  INFO 37452 --- [edumanage] [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-04-07T00:04:12.441+05:30  INFO 37452 --- [edumanage] [  restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-04-07T00:04:12.441+05:30  INFO 37452 --- [edumanage] [  restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.39]
+2026-04-07T00:04:12.543+05:30  INFO 37452 --- [edumanage] [  restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-04-07T00:04:12.543+05:30  INFO 37452 --- [edumanage] [  restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4527 ms
+2026-04-07T00:04:12.867+05:30  INFO 37452 --- [edumanage] [  restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-04-07T00:04:12.961+05:30  INFO 37452 --- [edumanage] [  restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.11.Final
+2026-04-07T00:04:13.007+05:30  INFO 37452 --- [edumanage] [  restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-04-07T00:04:13.470+05:30  INFO 37452 --- [edumanage] [  restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-04-07T00:04:13.530+05:30  INFO 37452 --- [edumanage] [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-04-07T00:04:13.864+05:30  INFO 37452 --- [edumanage] [  restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4049e4b0
+2026-04-07T00:04:13.866+05:30  INFO 37452 --- [edumanage] [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-04-07T00:04:13.995+05:30  WARN 37452 --- [edumanage] [  restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-04-07T00:04:14.027+05:30  INFO 37452 --- [edumanage] [  restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.45
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-04-07T00:04:16.313+05:30  INFO 37452 --- [edumanage] [  restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-04-07T00:04:16.471+05:30 DEBUG 37452 --- [edumanage] [  restartedMain] org.hibernate.SQL                        : 
+    create table attendance (
+        id bigint not null auto_increment,
+        created_at datetime(6) not null,
+        updated_at datetime(6) not null,
+        date date not null,
+        status enum ('ABSENT','PRESENT') not null,
+        course_id bigint not null,
+        student_id bigint not null,
+        primary key (id)
+    ) engine=InnoDB
+Hibernate: 
+    create table attendance (
+        id bigint not null auto_increment,
+        created_at datetime(6) not null,
+        updated_at datetime(6) not null,
+        date date not null,
+        status enum ('ABSENT','PRESENT') not null,
+        course_id bigint not null,
+        student_id bigint not null,
+        primary key (id)
+    ) engine=InnoDB
+2026-04-07T00:04:16.598+05:30 DEBUG 37452 --- [edumanage] [  restartedMain] org.hibernate.SQL                        : 
+    create table chat_messages (
+        id bigint not null auto_increment,
+        created_at datetime(6) not null,
+        updated_at datetime(6) not null,
+        group_name varchar(255) not null,
+        message TEXT not null,
+        timestamp datetime(6) not null,
+        sender_id bigint not null,
+        primary key (id)
+    ) engine=InnoDB
+Hibernate: 
+    create table chat_messages (
+        id bigint not null auto_increment,
+        created_at datetime(6) not null,
+        updated_at datetime(6) not null,
+        group_name varchar(255) not null,
+        message TEXT not null,
+        timestamp datetime(6) not null,
+        sender_id bigint not null,
+        primary key (id)
+    ) engine=InnoDB
+2026-04-07T00:04:16.640+05:30 DEBUG 37452 --- [edumanage] [  restartedMain] org.hibernate.SQL                        : 
+    create table complaints (
+        id bigint not null auto_increment,
+        created_at datetime(6) not null,
+        updated_at datetime(6) not null,
+        message TEXT not null,
+        status enum ('IN_PROGRESS','OPEN','RESOLVED') not null,
+        student_id bigint not null,
+        primary key (id)
+    ) engine=InnoDB
+Hibernate: 
+    create table complaints (
+        id bigint not null auto_increment,
+        created_at datetime(6) not null,
+        updated_at datetime(6) not null,
+        message TEXT not null,
+        status enum ('IN_PROGRESS','OPEN','RESOLVED') not null,
+        student_id bigint not null,
+        primary key (id)
+    ) engine=InnoDB
+2026-04-07T00:04:16.680+05:30 DEBUG 37452 --- [edumanage] [  restartedMain] org.hibernate.SQL                        : 
+    create table course_materials (
+        id bigint not null auto_increment,
+        created_at datetime(6) not null,
+        updated_at datetime(6) not null,
+        file_name varchar(255) not null,
+        file_url varchar(255) not null,
+        course_id bigint not null,
+        uploaded_by bigint not null,
+        primary key (id)
+    ) engine=InnoDB
+Hibernate: 
+    create table course_materials (
+        id bigint not null auto_increment,
+        created_at datetime(6) not null,
+        updated_at datetime(6) not null,
+        file_name varchar(255) not null,
+        file_url varchar(255) not null,
+        course_id bigint not null,
+        uploaded_by bigint not null,
+        primary key (id)
+    ) engine=InnoDB
+2026-04-07T00:04:16.722+05:30 DEBUG 37452 --- [edumanage] [  restartedMain] org.hibernate.SQL                        : 
+    create table courses (
+        id bigint not null auto_increment,
+        created_at datetime(6) not null,
+        updated_at datetime(6) not null,
+        code varchar(255) not null,
+        name varchar(255) not null,
+        faculty_id bigint not null,
+        primary key (id)
+    ) engine=InnoDB
+Hibernate: 
+    create table courses (
+        id bigint not null auto_increment,
+        created_at datetime(6) not null,
+        updated_at datetime(6) not null,
+        code varchar(255) not null,
+        name varchar(255) not null,
+        faculty_id bigint not null,
+        primary key (id)
+    ) engine=InnoDB
+2026-04-07T00:04:16.761+05:30 DEBUG 37452 --- [edumanage] [  restartedMain] org.hibernate.SQL                        : 
+    create table enrollments (
+        id bigint not null auto_increment,
+        created_at datetime(6) not null,
+        updated_at datetime(6) not null,
+        course_id bigint not null,
+        student_id bigint not null,
+        primary key (id)
+    ) engine=InnoDB
+Hibernate: 
+    create table enrollments (
+        id bigint not null auto_increment,
+        created_at datetime(6) not null,
+        updated_at datetime(6) not null,
+        course_id bigint not null,
+        student_id bigint not null,
+        primary key (id)
+    ) engine=InnoDB
+2026-04-07T00:04:16.806+05:30 DEBUG 37452 --- [edumanage] [  restartedMain] org.hibernate.SQL                        : 
+    create table fee_records (
+        id bigint not null auto_increment,
+        created_at datetime(6) not null,
+        updated_at datetime(6) not null,
+        amount decimal(10,2) not null,
+        receipt_url varchar(255),
+        status enum ('PAID','PENDING') not null,
+        type enum ('LAB','LIBRARY','TUITION') not null,
+        student_id bigint not null,
+        primary key (id)
+    ) engine=InnoDB
+Hibernate: 
+    create table fee_records (
+        id bigint not null auto_increment,
+        created_at datetime(6) not null,
+        updated_at datetime(6) not null,
+        amount decimal(10,2) not null,
+        receipt_url varchar(255),
+        status enum ('PAID','PENDING') not null,
+        type enum ('LAB','LIBRARY','TUITION') not null,
+        student_id bigint not null,
+        primary key (id)
+    ) engine=InnoDB
+2026-04-07T00:04:16.853+05:30 DEBUG 37452 --- [edumanage] [  restartedMain] org.hibernate.SQL                        : 
+    create table grades (
+        id bigint not null auto_increment,
+        created_at datetime(6) not null,
+        updated_at datetime(6) not null,
+        grade varchar(2) not null,
+        marks float(53) not null,
+        status enum ('FAIL','PASS') not null,
+        course_id bigint not null,
+        student_id bigint not null,
+        primary key (id)
+    ) engine=InnoDB
+Hibernate: 
+    create table grades (
+        id bigint not null auto_increment,
+        created_at datetime(6) not null,
+        updated_at datetime(6) not null,
+        grade varchar(2) not null,
+        marks float(53) not null,
+        status enum ('FAIL','PASS') not null,
+        course_id bigint not null,
+        student_id bigint not null,
+        primary key (id)
+    ) engine=InnoDB
+2026-04-07T00:04:16.889+05:30 DEBUG 37452 --- [edumanage] [  restartedMain] org.hibernate.SQL                        : 
+    create table hostels (
+        id bigint not null auto_increment,
+        created_at datetime(6) not null,
+        updated_at datetime(6) not null,
+        block varchar(255) not null,
+        fees decimal(10,2) not null,
+        room_number varchar(255) not null,
+        student_id bigint not null,
+        primary key (id)
+    ) engine=InnoDB
+Hibernate: 
+    create table hostels (
+        id bigint not null auto_increment,
+        created_at datetime(6) not null,
+        updated_at datetime(6) not null,
+        block varchar(255) not null,
+        fees decimal(10,2) not null,
+        room_number varchar(255) not null,
+        student_id bigint not null,
+        primary key (id)
+    ) engine=InnoDB
+2026-04-07T00:04:16.930+05:30 DEBUG 37452 --- [edumanage] [  restartedMain] org.hibernate.SQL                        : 
+    create table transports (
+        id bigint not null auto_increment,
+        created_at datetime(6) not null,
+        updated_at datetime(6) not null,
+        bus_number varchar(255) not null,
+        driver_contact varchar(255) not null,
+        route varchar(255) not null,
+        student_id bigint not null,
+        primary key (id)
+    ) engine=InnoDB
+Hibernate: 
+    create table transports (
+        id bigint not null auto_increment,
+        created_at datetime(6) not null,
+        updated_at datetime(6) not null,
+        bus_number varchar(255) not null,
+        driver_contact varchar(255) not null,
+        route varchar(255) not null,
+        student_id bigint not null,
+        primary key (id)
+    ) engine=InnoDB
+2026-04-07T00:04:16.973+05:30 DEBUG 37452 --- [edumanage] [  restartedMain] org.hibernate.SQL                        : 
+    create table users (
+        id bigint not null auto_increment,
+        created_at datetime(6) not null,
+        updated_at datetime(6) not null,
+        email varchar(255) not null,
+        full_name varchar(255) not null,
+        password varchar(255) not null,
+        role enum ('FACULTY','STUDENT') not null,
+        username varchar(15) not null,
+        primary key (id)
+    ) engine=InnoDB
+Hibernate: 
+    create table users (
+        id bigint not null auto_increment,
+        created_at datetime(6) not null,
+        updated_at datetime(6) not null,
+        email varchar(255) not null,
+        full_name varchar(255) not null,
+        password varchar(255) not null,
+        role enum ('FACULTY','STUDENT') not null,
+        username varchar(15) not null,
+        primary key (id)
+    ) engine=InnoDB
+2026-04-07T00:04:17.012+05:30 DEBUG 37452 --- [edumanage] [  restartedMain] org.hibernate.SQL                        : 
+    alter table attendance 
+       drop index UK3mjvpj1ab0m02i68nvmeduamb
+Hibernate: 
+    alter table attendance 
+       drop index UK3mjvpj1ab0m02i68nvmeduamb
+2026-04-07T00:04:17.086+05:30 DEBUG 37452 --- [edumanage] [  restartedMain] org.hibernate.SQL                        : 
+    alter table attendance 
+       add constraint UK3mjvpj1ab0m02i68nvmeduamb unique (student_id, course_id, date)
+Hibernate: 
+    alter table attendance 
+       add constraint UK3mjvpj1ab0m02i68nvmeduamb unique (student_id, course_id, date)
+2026-04-07T00:04:17.121+05:30 DEBUG 37452 --- [edumanage] [  restartedMain] org.hibernate.SQL                        : 
+    alter table courses 
+       drop index UK61og8rbqdd2y28rx2et5fdnxd
+Hibernate: 
+    alter table courses 
+       drop index UK61og8rbqdd2y28rx2et5fdnxd
+2026-04-07T00:04:17.127+05:30 DEBUG 37452 --- [edumanage] [  restartedMain] org.hibernate.SQL                        : 
+    alter table courses 
+       add constraint UK61og8rbqdd2y28rx2et5fdnxd unique (code)
+Hibernate: 
+    alter table courses 
+       add constraint UK61og8rbqdd2y28rx2et5fdnxd unique (code)
+2026-04-07T00:04:17.155+05:30 DEBUG 37452 --- [edumanage] [  restartedMain] org.hibernate.SQL                        : 
+    alter table enrollments 
+       drop index UKi0g6mfijtuh199nj653nva6j5
+Hibernate: 
+    alter table enrollments 
+       drop index UKi0g6mfijtuh199nj653nva6j5
+2026-04-07T00:04:17.158+05:30 DEBUG 37452 --- [edumanage] [  restartedMain] org.hibernate.SQL                        : 
+    alter table enrollments 
+       add constraint UKi0g6mfijtuh199nj653nva6j5 unique (student_id, course_id)
+Hibernate: 
+    alter table enrollments 
+       add constraint UKi0g6mfijtuh199nj653nva6j5 unique (student_id, course_id)
+2026-04-07T00:04:17.186+05:30 DEBUG 37452 --- [edumanage] [  restartedMain] org.hibernate.SQL                        : 
+    alter table grades 
+       drop index UKo2rr8h857kiwm0k14dmdsil6
+Hibernate: 
+    alter table grades 
+       drop index UKo2rr8h857kiwm0k14dmdsil6
+2026-04-07T00:04:17.189+05:30 DEBUG 37452 --- [edumanage] [  restartedMain] org.hibernate.SQL                        : 
+    alter table grades 
+       add constraint UKo2rr8h857kiwm0k14dmdsil6 unique (student_id, course_id)
+Hibernate: 
+    alter table grades 
+       add constraint UKo2rr8h857kiwm0k14dmdsil6 unique (student_id, course_id)
+2026-04-07T00:04:17.238+05:30 DEBUG 37452 --- [edumanage] [  restartedMain] org.hibernate.SQL                        : 
+    alter table hostels 
+       drop index UK1is4gtvn5p28gfo37u6ayjsq6
+Hibernate: 
+    alter table hostels 
+       drop index UK1is4gtvn5p28gfo37u6ayjsq6
+2026-04-07T00:04:17.239+05:30 DEBUG 37452 --- [edumanage] [  restartedMain] org.hibernate.SQL                        : 
+    alter table hostels 
+       add constraint UK1is4gtvn5p28gfo37u6ayjsq6 unique (student_id)
+Hibernate: 
+    alter table hostels 
+       add constraint UK1is4gtvn5p28gfo37u6ayjsq6 unique (student_id)
+2026-04-07T00:04:17.281+05:30 DEBUG 37452 --- [edumanage] [  restartedMain] org.hibernate.SQL                        : 
+    alter table transports 
+       drop index UK4eg34mrbkltq98rktwtlp878g
+Hibernate: 
+    alter table transports 
+       drop index UK4eg34mrbkltq98rktwtlp878g
+2026-04-07T00:04:17.287+05:30 DEBUG 37452 --- [edumanage] [  restartedMain] org.hibernate.SQL                        : 
+    alter table transports 
+       add constraint UK4eg34mrbkltq98rktwtlp878g unique (student_id)
+Hibernate: 
+    alter table transports 
+       add constraint UK4eg34mrbkltq98rktwtlp878g unique (student_id)
+2026-04-07T00:04:17.333+05:30 DEBUG 37452 --- [edumanage] [  restartedMain] org.hibernate.SQL                        : 
+    alter table users 
+       drop index UK6dotkott2kjsp8vw4d0m25fb7
+Hibernate: 
+    alter table users 
+       drop index UK6dotkott2kjsp8vw4d0m25fb7
+2026-04-07T00:04:17.339+05:30 DEBUG 37452 --- [edumanage] [  restartedMain] org.hibernate.SQL                        : 
+    alter table users 
+       add constraint UK6dotkott2kjsp8vw4d0m25fb7 unique (email)
+Hibernate: 
+    alter table users 
+       add constraint UK6dotkott2kjsp8vw4d0m25fb7 unique (email)
+2026-04-07T00:04:17.380+05:30 DEBUG 37452 --- [edumanage] [  restartedMain] org.hibernate.SQL                        : 
+    alter table users 
+       drop index UKr43af9ap4edm43mmtq01oddj6
+Hibernate: 
+    alter table users 
+       drop index UKr43af9ap4edm43mmtq01oddj6
+2026-04-07T00:04:17.386+05:30 DEBUG 37452 --- [edumanage] [  restartedMain] org.hibernate.SQL                        : 
+    alter table users 
+       add constraint UKr43af9ap4edm43mmtq01oddj6 unique (username)
+Hibernate: 
+    alter table users 
+       add constraint UKr43af9ap4edm43mmtq01oddj6 unique (username)
+2026-04-07T00:04:17.416+05:30 DEBUG 37452 --- [edumanage] [  restartedMain] org.hibernate.SQL                        : 
+    alter table attendance 
+       add constraint FKn38ldxe7u4udeu15ikqfsplnm 
+       foreign key (course_id) 
+       references courses (id)
+Hibernate: 
+    alter table attendance 
+       add constraint FKn38ldxe7u4udeu15ikqfsplnm 
+       foreign key (course_id) 
+       references courses (id)
+2026-04-07T00:04:17.555+05:30 DEBUG 37452 --- [edumanage] [  restartedMain] org.hibernate.SQL                        : 
+    alter table attendance 
+       add constraint FK80qpvlsg0xpmw80bnk64avvou 
+       foreign key (student_id) 
+       references users (id)
+Hibernate: 
+    alter table attendance 
+       add constraint FK80qpvlsg0xpmw80bnk64avvou 
+       foreign key (student_id) 
+       references users (id)
+2026-04-07T00:04:17.677+05:30 DEBUG 37452 --- [edumanage] [  restartedMain] org.hibernate.SQL                        : 
+    alter table chat_messages 
+       add constraint FKgiqeap8ays4lf684x7m0r2729 
+       foreign key (sender_id) 
+       references users (id)
+Hibernate: 
+    alter table chat_messages 
+       add constraint FKgiqeap8ays4lf684x7m0r2729 
+       foreign key (sender_id) 
+       references users (id)
+2026-04-07T00:04:17.911+05:30 DEBUG 37452 --- [edumanage] [  restartedMain] org.hibernate.SQL                        : 
+    alter table complaints 
+       add constraint FKnpv9kh2do0j2a1qfqqsk2sqtu 
+       foreign key (student_id) 
+       references users (id)
+Hibernate: 
+    alter table complaints 
+       add constraint FKnpv9kh2do0j2a1qfqqsk2sqtu 
+       foreign key (student_id) 
+       references users (id)
+2026-04-07T00:04:18.050+05:30 DEBUG 37452 --- [edumanage] [  restartedMain] org.hibernate.SQL                        : 
+    alter table course_materials 
+       add constraint FKjobqk7m872wjsw0y29tle6wek 
+       foreign key (course_id) 
+       references courses (id)
+Hibernate: 
+    alter table course_materials 
+       add constraint FKjobqk7m872wjsw0y29tle6wek 
+       foreign key (course_id) 
+       references courses (id)
+2026-04-07T00:04:18.155+05:30 DEBUG 37452 --- [edumanage] [  restartedMain] org.hibernate.SQL                        : 
+    alter table course_materials 
+       add constraint FKpnxoasam5wwkq6a7hvpv81cf 
+       foreign key (uploaded_by) 
+       references users (id)
+Hibernate: 
+    alter table course_materials 
+       add constraint FKpnxoasam5wwkq6a7hvpv81cf 
+       foreign key (uploaded_by) 
+       references users (id)
+2026-04-07T00:04:18.248+05:30 DEBUG 37452 --- [edumanage] [  restartedMain] org.hibernate.SQL                        : 
+    alter table courses 
+       add constraint FK7tcden6kc8rs1p43l571y194u 
+       foreign key (faculty_id) 
+       references users (id)
+Hibernate: 
+    alter table courses 
+       add constraint FK7tcden6kc8rs1p43l571y194u 
+       foreign key (faculty_id) 
+       references users (id)
+2026-04-07T00:04:18.366+05:30 DEBUG 37452 --- [edumanage] [  restartedMain] org.hibernate.SQL                        : 
+    alter table enrollments 
+       add constraint FKho8mcicp4196ebpltdn9wl6co 
+       foreign key (course_id) 
+       references courses (id)
+Hibernate: 
+    alter table enrollments 
+       add constraint FKho8mcicp4196ebpltdn9wl6co 
+       foreign key (course_id) 
+       references courses (id)
+2026-04-07T00:04:18.506+05:30 DEBUG 37452 --- [edumanage] [  restartedMain] org.hibernate.SQL                        : 
+    alter table enrollments 
+       add constraint FK2lha5vwilci2yi3vu5akusx4a 
+       foreign key (student_id) 
+       references users (id)
+Hibernate: 
+    alter table enrollments 
+       add constraint FK2lha5vwilci2yi3vu5akusx4a 
+       foreign key (student_id) 
+       references users (id)
+2026-04-07T00:04:18.639+05:30 DEBUG 37452 --- [edumanage] [  restartedMain] org.hibernate.SQL                        : 
+    alter table fee_records 
+       add constraint FKjg0koey7xvwtxo7ite5mfkjl1 
+       foreign key (student_id) 
+       references users (id)
+Hibernate: 
+    alter table fee_records 
+       add constraint FKjg0koey7xvwtxo7ite5mfkjl1 
+       foreign key (student_id) 
+       references users (id)
+2026-04-07T00:04:18.766+05:30 DEBUG 37452 --- [edumanage] [  restartedMain] org.hibernate.SQL                        : 
+    alter table grades 
+       add constraint FKox7bxu57m6gpmeeyj38rfrdw9 
+       foreign key (course_id) 
+       references courses (id)
+Hibernate: 
+    alter table grades 
+       add constraint FKox7bxu57m6gpmeeyj38rfrdw9 
+       foreign key (course_id) 
+       references courses (id)
+2026-04-07T00:04:18.906+05:30 DEBUG 37452 --- [edumanage] [  restartedMain] org.hibernate.SQL                        : 
+    alter table grades 
+       add constraint FK2udi8qqpoqmopyp47iy76jeq6 
+       foreign key (student_id) 
+       references users (id)
+Hibernate: 
+    alter table grades 
+       add constraint FK2udi8qqpoqmopyp47iy76jeq6 
+       foreign key (student_id) 
+       references users (id)
+2026-04-07T00:04:19.032+05:30 DEBUG 37452 --- [edumanage] [  restartedMain] org.hibernate.SQL                        : 
+    alter table hostels 
+       add constraint FKt8qn4rixfhwsin4kswtc0yoju 
+       foreign key (student_id) 
+       references users (id)
+Hibernate: 
+    alter table hostels 
+       add constraint FKt8qn4rixfhwsin4kswtc0yoju 
+       foreign key (student_id) 
+       references users (id)
+2026-04-07T00:04:19.155+05:30 DEBUG 37452 --- [edumanage] [  restartedMain] org.hibernate.SQL                        : 
+    alter table transports 
+       add constraint FKgbobyafxesfjjuvix9whrnc4e 
+       foreign key (student_id) 
+       references users (id)
+Hibernate: 
+    alter table transports 
+       add constraint FKgbobyafxesfjjuvix9whrnc4e 
+       foreign key (student_id) 
+       references users (id)
+2026-04-07T00:04:19.243+05:30  INFO 37452 --- [edumanage] [  restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-04-07T00:04:19.721+05:30 DEBUG 37452 --- [edumanage] [  restartedMain] c.k.p.security.JwtAuthenticationFilter   : Filter 'jwtAuthenticationFilter' configured for use
+2026-04-07T00:04:19.977+05:30  INFO 37452 --- [edumanage] [  restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2026-04-07T00:04:21.235+05:30 DEBUG 37452 --- [edumanage] [  restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, CorsFilter, CorsFilter, LogoutFilter, JwtAuthenticationFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, SessionManagementFilter, ExceptionTranslationFilter, AuthorizationFilter
+2026-04-07T00:04:21.780+05:30  INFO 37452 --- [edumanage] [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2026-04-07T00:04:21.810+05:30  INFO 37452 --- [edumanage] [  restartedMain] o.s.m.s.b.SimpleBrokerMessageHandler     : Starting...
+2026-04-07T00:04:21.810+05:30  INFO 37452 --- [edumanage] [  restartedMain] o.s.m.s.b.SimpleBrokerMessageHandler     : BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [org.springframework.messaging.simp.broker.DefaultSubscriptionRegistry@6a208fe0]]
+2026-04-07T00:04:21.819+05:30  INFO 37452 --- [edumanage] [  restartedMain] o.s.m.s.b.SimpleBrokerMessageHandler     : Started.
+2026-04-07T00:04:21.827+05:30  INFO 37452 --- [edumanage] [  restartedMain] o.s.m.s.b.SimpleBrokerMessageHandler     : Stopping...
+2026-04-07T00:04:21.827+05:30  INFO 37452 --- [edumanage] [  restartedMain] o.s.m.s.b.SimpleBrokerMessageHandler     : BrokerAvailabilityEvent[available=false, SimpleBrokerMessageHandler [org.springframework.messaging.simp.broker.DefaultSubscriptionRegistry@6a208fe0]]
+2026-04-07T00:04:21.827+05:30  INFO 37452 --- [edumanage] [  restartedMain] o.s.m.s.b.SimpleBrokerMessageHandler     : Stopped.
+2026-04-07T00:04:21.828+05:30  WARN 37452 --- [edumanage] [  restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2026-04-07T00:04:21.835+05:30  INFO 37452 --- [edumanage] [  restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-04-07T00:04:21.839+05:30  INFO 37452 --- [edumanage] [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-04-07T00:04:21.848+05:30  INFO 37452 --- [edumanage] [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-04-07T00:04:21.864+05:30  INFO 37452 --- [edumanage] [  restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-04-07T00:04:21.892+05:30 ERROR 37452 --- [edumanage] [  restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  27.045 s
+[INFO] Finished at: 2026-04-07T00:04:22+05:30
+[INFO] ------------------------------------------------------------------------

@@ -1,0 +1,344 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -------------------------< com.klu:edumanage >--------------------------
+[INFO] Building EduManage ERP 1.0.0
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.4.1:clean (default-clean) @ edumanage ---
+[INFO] Deleting C:\Users\VISHWAS\Downloads\project\project\target
+[INFO] 
+[INFO] >>> spring-boot:3.4.4:run (default-cli) > test-compile @ edumanage >>>
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ edumanage ---
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO] Copying 0 resource from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (default-compile) @ edumanage ---
+[INFO] Recompiling the module because of changed source code.
+[INFO] Compiling 102 source files with javac [debug parameters release 17] to target\classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /C:/Users/VISHWAS/Downloads/project/project/src/main/java/com/klu/project/entity/Attendance.java:[12,1] jakarta.persistence.Entity is not a repeatable annotation type
+[ERROR] /C:/Users/VISHWAS/Downloads/project/project/src/main/java/com/klu/project/entity/Attendance.java:[13,1] jakarta.persistence.Table is not a repeatable annotation type
+[ERROR] /C:/Users/VISHWAS/Downloads/project/project/src/main/java/com/klu/project/entity/Course.java:[8,1] jakarta.persistence.Entity is not a repeatable annotation type
+[ERROR] /C:/Users/VISHWAS/Downloads/project/project/src/main/java/com/klu/project/entity/Course.java:[9,1] jakarta.persistence.Table is not a repeatable annotation type
+[ERROR] /C:/Users/VISHWAS/Downloads/project/project/src/main/java/com/klu/project/entity/ChatMessage.java:[10,1] jakarta.persistence.Entity is not a repeatable annotation type
+[ERROR] /C:/Users/VISHWAS/Downloads/project/project/src/main/java/com/klu/project/entity/ChatMessage.java:[11,1] jakarta.persistence.Table is not a repeatable annotation type
+[ERROR] /C:/Users/VISHWAS/Downloads/project/project/src/main/java/com/klu/project/entity/Complaint.java:[8,1] jakarta.persistence.Entity is not a repeatable annotation type
+[ERROR] /C:/Users/VISHWAS/Downloads/project/project/src/main/java/com/klu/project/entity/Complaint.java:[9,1] jakarta.persistence.Table is not a repeatable annotation type
+[ERROR] /C:/Users/VISHWAS/Downloads/project/project/src/main/java/com/klu/project/entity/CourseMaterial.java:[8,1] jakarta.persistence.Entity is not a repeatable annotation type
+[ERROR] /C:/Users/VISHWAS/Downloads/project/project/src/main/java/com/klu/project/entity/CourseMaterial.java:[9,1] jakarta.persistence.Table is not a repeatable annotation type
+[ERROR] /C:/Users/VISHWAS/Downloads/project/project/src/main/java/com/klu/project/entity/Enrollment.java:[10,1] jakarta.persistence.Entity is not a repeatable annotation type
+[ERROR] /C:/Users/VISHWAS/Downloads/project/project/src/main/java/com/klu/project/entity/Enrollment.java:[11,1] jakarta.persistence.Table is not a repeatable annotation type
+[ERROR] /C:/Users/VISHWAS/Downloads/project/project/src/main/java/com/klu/project/entity/FeeRecord.java:[10,1] jakarta.persistence.Entity is not a repeatable annotation type
+[ERROR] /C:/Users/VISHWAS/Downloads/project/project/src/main/java/com/klu/project/entity/FeeRecord.java:[11,1] jakarta.persistence.Table is not a repeatable annotation type
+[ERROR] /C:/Users/VISHWAS/Downloads/project/project/src/main/java/com/klu/project/entity/Hostel.java:[10,1] jakarta.persistence.Entity is not a repeatable annotation type
+[ERROR] /C:/Users/VISHWAS/Downloads/project/project/src/main/java/com/klu/project/entity/Hostel.java:[11,1] jakarta.persistence.Table is not a repeatable annotation type
+[ERROR] /C:/Users/VISHWAS/Downloads/project/project/src/main/java/com/klu/project/entity/Transport.java:[8,1] jakarta.persistence.Entity is not a repeatable annotation type
+[ERROR] /C:/Users/VISHWAS/Downloads/project/project/src/main/java/com/klu/project/entity/Transport.java:[9,1] jakarta.persistence.Table is not a repeatable annotation type
+[ERROR] /C:/Users/VISHWAS/Downloads/project/project/src/main/java/com/klu/project/dto/response/ApiResponse.java:[18,27] cannot find symbol
+  symbol:   method <T>builder()
+  location: class com.klu.project.dto.response.ApiResponse
+[ERROR] /C:/Users/VISHWAS/Downloads/project/project/src/main/java/com/klu/project/dto/response/ApiResponse.java:[26,27] cannot find symbol
+  symbol:   method <T>builder()
+  location: class com.klu.project.dto.response.ApiResponse
+[ERROR] /C:/Users/VISHWAS/Downloads/project/project/src/main/java/com/klu/project/dto/response/ApiResponse.java:[33,27] cannot find symbol
+  symbol:   method <T>builder()
+  location: class com.klu.project.dto.response.ApiResponse
+[ERROR] /C:/Users/VISHWAS/Downloads/project/project/src/main/java/com/klu/project/dto/response/ApiResponse.java:[40,27] cannot find symbol
+  symbol:   method <T>builder()
+  location: class com.klu.project.dto.response.ApiResponse
+[ERROR] /C:/Users/VISHWAS/Downloads/project/project/src/main/java/com/klu/project/controller/AuthController.java:[65,45] cannot find symbol
+  symbol:   method getCurrentPassword()
+  location: variable request of type @jakarta.validation.Valid com.klu.project.dto.request.ChangePasswordRequestDTO
+[ERROR] /C:/Users/VISHWAS/Downloads/project/project/src/main/java/com/klu/project/controller/AuthController.java:[69,56] cannot find symbol
+  symbol:   method getNewPassword()
+  location: variable request of type @jakarta.validation.Valid com.klu.project.dto.request.ChangePasswordRequestDTO
+[ERROR] /C:/Users/VISHWAS/Downloads/project/project/src/main/java/com/klu/project/service/impl/AttendanceServiceImpl.java:[51,58] cannot find symbol
+  symbol:   method getCourseId()
+  location: variable request of type com.klu.project.dto.request.AttendanceRequestDTO
+[ERROR] /C:/Users/VISHWAS/Downloads/project/project/src/main/java/com/klu/project/service/impl/AttendanceServiceImpl.java:[52,89] cannot find symbol
+  symbol:   method getCourseId()
+  location: variable request of type com.klu.project.dto.request.AttendanceRequestDTO
+[ERROR] /C:/Users/VISHWAS/Downloads/project/project/src/main/java/com/klu/project/service/impl/AttendanceServiceImpl.java:[56,71] cannot find symbol
+  symbol:   method getRecords()
+  location: variable request of type com.klu.project.dto.request.AttendanceRequestDTO
+[ERROR] /C:/Users/VISHWAS/Downloads/project/project/src/main/java/com/klu/project/service/impl/AttendanceServiceImpl.java:[57,58] cannot find symbol
+  symbol:   method getStudentId()
+  location: variable record of type com.klu.project.dto.request.AttendanceRequestDTO.AttendanceRecordDTO
+[ERROR] /C:/Users/VISHWAS/Downloads/project/project/src/main/java/com/klu/project/service/impl/AttendanceServiceImpl.java:[58,93] cannot find symbol
+  symbol:   method getStudentId()
+  location: variable record of type com.klu.project.dto.request.AttendanceRequestDTO.AttendanceRecordDTO
+[ERROR] /C:/Users/VISHWAS/Downloads/project/project/src/main/java/com/klu/project/service/impl/AttendanceServiceImpl.java:[61,61] cannot find symbol
+  symbol:   method getDate()
+  location: variable request of type com.klu.project.dto.request.AttendanceRequestDTO
+[ERROR] /C:/Users/VISHWAS/Downloads/project/project/src/main/java/com/klu/project/service/impl/AttendanceServiceImpl.java:[62,100] cannot find symbol
+  symbol:   method getDate()
+  location: variable request of type com.klu.project.dto.request.AttendanceRequestDTO
+[ERROR] /C:/Users/VISHWAS/Downloads/project/project/src/main/java/com/klu/project/service/impl/AttendanceServiceImpl.java:[69,28] cannot find symbol
+  symbol:   method getDate()
+  location: variable request of type com.klu.project.dto.request.AttendanceRequestDTO
+[ERROR] /C:/Users/VISHWAS/Downloads/project/project/src/main/java/com/klu/project/service/impl/AttendanceServiceImpl.java:[70,52] cannot find symbol
+  symbol:   method getStatus()
+  location: variable record of type com.klu.project.dto.request.AttendanceRequestDTO.AttendanceRecordDTO
+[ERROR] /C:/Users/VISHWAS/Downloads/project/project/src/main/java/com/klu/project/service/impl/AuthServiceImpl.java:[43,52] cannot find symbol
+  symbol:   method getUsername()
+  location: variable request of type com.klu.project.dto.request.RegisterRequestDTO
+[ERROR] /C:/Users/VISHWAS/Downloads/project/project/src/main/java/com/klu/project/service/impl/AuthServiceImpl.java:[44,87] cannot find symbol
+  symbol:   method getUsername()
+  location: variable request of type com.klu.project.dto.request.RegisterRequestDTO
+[ERROR] /C:/Users/VISHWAS/Downloads/project/project/src/main/java/com/klu/project/service/impl/AuthServiceImpl.java:[46,49] cannot find symbol
+  symbol:   method getEmail()
+  location: variable request of type com.klu.project.dto.request.RegisterRequestDTO
+[ERROR] /C:/Users/VISHWAS/Downloads/project/project/src/main/java/com/klu/project/service/impl/AuthServiceImpl.java:[47,84] cannot find symbol
+  symbol:   method getEmail()
+  location: variable request of type com.klu.project.dto.request.RegisterRequestDTO
+[ERROR] /C:/Users/VISHWAS/Downloads/project/project/src/main/java/com/klu/project/service/impl/AuthServiceImpl.java:[51,24] cannot find symbol
+  symbol:   method getUsername()
+  location: variable request of type com.klu.project.dto.request.RegisterRequestDTO
+[ERROR] /C:/Users/VISHWAS/Downloads/project/project/src/main/java/com/klu/project/service/impl/AuthServiceImpl.java:[52,47] cannot find symbol
+  symbol:   method getPassword()
+  location: variable request of type com.klu.project.dto.request.RegisterRequestDTO
+[ERROR] /C:/Users/VISHWAS/Downloads/project/project/src/main/java/com/klu/project/service/impl/AuthServiceImpl.java:[53,24] cannot find symbol
+  symbol:   method getEmail()
+  location: variable request of type com.klu.project.dto.request.RegisterRequestDTO
+[ERROR] /C:/Users/VISHWAS/Downloads/project/project/src/main/java/com/klu/project/service/impl/AuthServiceImpl.java:[54,24] cannot find symbol
+  symbol:   method getFullName()
+  location: variable request of type com.klu.project.dto.request.RegisterRequestDTO
+[ERROR] /C:/Users/VISHWAS/Downloads/project/project/src/main/java/com/klu/project/service/impl/AuthServiceImpl.java:[55,37] cannot find symbol
+  symbol:   method getRole()
+  location: variable request of type com.klu.project.dto.request.RegisterRequestDTO
+[ERROR] /C:/Users/VISHWAS/Downloads/project/project/src/main/java/com/klu/project/service/impl/AuthServiceImpl.java:[70,32] cannot find symbol
+  symbol:   method getUsername()
+  location: variable request of type com.klu.project.dto.request.LoginRequestDTO
+[ERROR] /C:/Users/VISHWAS/Downloads/project/project/src/main/java/com/klu/project/service/impl/AuthServiceImpl.java:[70,55] cannot find symbol
+  symbol:   method getPassword()
+  location: variable request of type com.klu.project.dto.request.LoginRequestDTO
+[ERROR] /C:/Users/VISHWAS/Downloads/project/project/src/main/java/com/klu/project/service/impl/AuthServiceImpl.java:[74,58] cannot find symbol
+  symbol:   method getUsername()
+  location: variable request of type com.klu.project.dto.request.LoginRequestDTO
+[ERROR] /C:/Users/VISHWAS/Downloads/project/project/src/main/java/com/klu/project/service/impl/ChatServiceImpl.java:[43,24] cannot find symbol
+  symbol:   method getGroupName()
+  location: variable request of type com.klu.project.dto.request.ChatMessageRequestDTO
+[ERROR] /C:/Users/VISHWAS/Downloads/project/project/src/main/java/com/klu/project/service/impl/ChatServiceImpl.java:[44,24] cannot find symbol
+  symbol:   method getMessage()
+  location: variable request of type com.klu.project.dto.request.ChatMessageRequestDTO
+[ERROR] /C:/Users/VISHWAS/Downloads/project/project/src/main/java/com/klu/project/service/impl/ChatServiceImpl.java:[49,78] cannot find symbol
+  symbol:   method getGroupName()
+  location: variable request of type com.klu.project.dto.request.ChatMessageRequestDTO
+[ERROR] /C:/Users/VISHWAS/Downloads/project/project/src/main/java/com/klu/project/service/impl/ComplaintServiceImpl.java:[43,24] cannot find symbol
+  symbol:   method getMessage()
+  location: variable request of type com.klu.project.dto.request.ComplaintRequestDTO
+[ERROR] /C:/Users/VISHWAS/Downloads/project/project/src/main/java/com/klu/project/service/impl/CourseServiceImpl.java:[59,50] cannot find symbol
+  symbol:   method getCode()
+  location: variable request of type com.klu.project.dto.request.CourseRequestDTO
+[ERROR] /C:/Users/VISHWAS/Downloads/project/project/src/main/java/com/klu/project/service/impl/CourseServiceImpl.java:[60,90] cannot find symbol
+  symbol:   method getCode()
+  location: variable request of type com.klu.project.dto.request.CourseRequestDTO
+[ERROR] /C:/Users/VISHWAS/Downloads/project/project/src/main/java/com/klu/project/service/impl/CourseServiceImpl.java:[64,24] cannot find symbol
+  symbol:   method getName()
+  location: variable request of type com.klu.project.dto.request.CourseRequestDTO
+[ERROR] /C:/Users/VISHWAS/Downloads/project/project/src/main/java/com/klu/project/service/impl/CourseServiceImpl.java:[65,24] cannot find symbol
+  symbol:   method getCode()
+  location: variable request of type com.klu.project.dto.request.CourseRequestDTO
+[ERROR] /C:/Users/VISHWAS/Downloads/project/project/src/main/java/com/klu/project/service/impl/CourseServiceImpl.java:[96,58] cannot find symbol
+  symbol:   method getCourseId()
+  location: variable request of type com.klu.project.dto.request.EnrollmentRequestDTO
+[ERROR] /C:/Users/VISHWAS/Downloads/project/project/src/main/java/com/klu/project/service/impl/CourseServiceImpl.java:[97,89] cannot find symbol
+  symbol:   method getCourseId()
+  location: variable request of type com.klu.project.dto.request.EnrollmentRequestDTO
+[ERROR] /C:/Users/VISHWAS/Downloads/project/project/src/main/java/com/klu/project/service/impl/GradeServiceImpl.java:[49,55] cannot find symbol
+  symbol:   method getStudentId()
+  location: variable request of type com.klu.project.dto.request.GradeRequestDTO
+[ERROR] /C:/Users/VISHWAS/Downloads/project/project/src/main/java/com/klu/project/service/impl/GradeServiceImpl.java:[50,90] cannot find symbol
+  symbol:   method getStudentId()
+  location: variable request of type com.klu.project.dto.request.GradeRequestDTO
+[ERROR] /C:/Users/VISHWAS/Downloads/project/project/src/main/java/com/klu/project/service/impl/GradeServiceImpl.java:[52,58] cannot find symbol
+  symbol:   method getCourseId()
+  location: variable request of type com.klu.project.dto.request.GradeRequestDTO
+[ERROR] /C:/Users/VISHWAS/Downloads/project/project/src/main/java/com/klu/project/service/impl/GradeServiceImpl.java:[53,89] cannot find symbol
+  symbol:   method getCourseId()
+  location: variable request of type com.klu.project.dto.request.GradeRequestDTO
+[ERROR] /C:/Users/VISHWAS/Downloads/project/project/src/main/java/com/klu/project/service/impl/GradeServiceImpl.java:[62,24] cannot find symbol
+  symbol:   method getMarks()
+  location: variable request of type com.klu.project.dto.request.GradeRequestDTO
+[ERROR] /C:/Users/VISHWAS/Downloads/project/project/src/main/java/com/klu/project/service/impl/GradeServiceImpl.java:[63,24] cannot find symbol
+  symbol:   method getGrade()
+  location: variable request of type com.klu.project.dto.request.GradeRequestDTO
+[ERROR] /C:/Users/VISHWAS/Downloads/project/project/src/main/java/com/klu/project/service/impl/GradeServiceImpl.java:[64,44] cannot find symbol
+  symbol:   method getStatus()
+  location: variable request of type com.klu.project.dto.request.GradeRequestDTO
+[ERROR] /C:/Users/VISHWAS/Downloads/project/project/src/main/java/com/klu/project/service/impl/GradeServiceImpl.java:[69,24] cannot find symbol
+  symbol:   method getGrade()
+  location: variable request of type com.klu.project.dto.request.GradeRequestDTO
+[INFO] 63 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  8.644 s
+[INFO] Finished at: 2026-04-07T00:39:03+05:30
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.13.0:compile (default-compile) on project edumanage: Compilation failure: Compilation failure: 
+[ERROR] /C:/Users/VISHWAS/Downloads/project/project/src/main/java/com/klu/project/entity/Attendance.java:[12,1] jakarta.persistence.Entity is not a repeatable annotation type
+[ERROR] /C:/Users/VISHWAS/Downloads/project/project/src/main/java/com/klu/project/entity/Attendance.java:[13,1] jakarta.persistence.Table is not a repeatable annotation type
+[ERROR] /C:/Users/VISHWAS/Downloads/project/project/src/main/java/com/klu/project/entity/Course.java:[8,1] jakarta.persistence.Entity is not a repeatable annotation type
+[ERROR] /C:/Users/VISHWAS/Downloads/project/project/src/main/java/com/klu/project/entity/Course.java:[9,1] jakarta.persistence.Table is not a repeatable annotation type
+[ERROR] /C:/Users/VISHWAS/Downloads/project/project/src/main/java/com/klu/project/entity/ChatMessage.java:[10,1] jakarta.persistence.Entity is not a repeatable annotation type
+[ERROR] /C:/Users/VISHWAS/Downloads/project/project/src/main/java/com/klu/project/entity/ChatMessage.java:[11,1] jakarta.persistence.Table is not a repeatable annotation type
+[ERROR] /C:/Users/VISHWAS/Downloads/project/project/src/main/java/com/klu/project/entity/Complaint.java:[8,1] jakarta.persistence.Entity is not a repeatable annotation type
+[ERROR] /C:/Users/VISHWAS/Downloads/project/project/src/main/java/com/klu/project/entity/Complaint.java:[9,1] jakarta.persistence.Table is not a repeatable annotation type
+[ERROR] /C:/Users/VISHWAS/Downloads/project/project/src/main/java/com/klu/project/entity/CourseMaterial.java:[8,1] jakarta.persistence.Entity is not a repeatable annotation type
+[ERROR] /C:/Users/VISHWAS/Downloads/project/project/src/main/java/com/klu/project/entity/CourseMaterial.java:[9,1] jakarta.persistence.Table is not a repeatable annotation type
+[ERROR] /C:/Users/VISHWAS/Downloads/project/project/src/main/java/com/klu/project/entity/Enrollment.java:[10,1] jakarta.persistence.Entity is not a repeatable annotation type
+[ERROR] /C:/Users/VISHWAS/Downloads/project/project/src/main/java/com/klu/project/entity/Enrollment.java:[11,1] jakarta.persistence.Table is not a repeatable annotation type
+[ERROR] /C:/Users/VISHWAS/Downloads/project/project/src/main/java/com/klu/project/entity/FeeRecord.java:[10,1] jakarta.persistence.Entity is not a repeatable annotation type
+[ERROR] /C:/Users/VISHWAS/Downloads/project/project/src/main/java/com/klu/project/entity/FeeRecord.java:[11,1] jakarta.persistence.Table is not a repeatable annotation type
+[ERROR] /C:/Users/VISHWAS/Downloads/project/project/src/main/java/com/klu/project/entity/Hostel.java:[10,1] jakarta.persistence.Entity is not a repeatable annotation type
+[ERROR] /C:/Users/VISHWAS/Downloads/project/project/src/main/java/com/klu/project/entity/Hostel.java:[11,1] jakarta.persistence.Table is not a repeatable annotation type
+[ERROR] /C:/Users/VISHWAS/Downloads/project/project/src/main/java/com/klu/project/entity/Transport.java:[8,1] jakarta.persistence.Entity is not a repeatable annotation type
+[ERROR] /C:/Users/VISHWAS/Downloads/project/project/src/main/java/com/klu/project/entity/Transport.java:[9,1] jakarta.persistence.Table is not a repeatable annotation type
+[ERROR] /C:/Users/VISHWAS/Downloads/project/project/src/main/java/com/klu/project/dto/response/ApiResponse.java:[18,27] cannot find symbol
+[ERROR]   symbol:   method <T>builder()
+[ERROR]   location: class com.klu.project.dto.response.ApiResponse
+[ERROR] /C:/Users/VISHWAS/Downloads/project/project/src/main/java/com/klu/project/dto/response/ApiResponse.java:[26,27] cannot find symbol
+[ERROR]   symbol:   method <T>builder()
+[ERROR]   location: class com.klu.project.dto.response.ApiResponse
+[ERROR] /C:/Users/VISHWAS/Downloads/project/project/src/main/java/com/klu/project/dto/response/ApiResponse.java:[33,27] cannot find symbol
+[ERROR]   symbol:   method <T>builder()
+[ERROR]   location: class com.klu.project.dto.response.ApiResponse
+[ERROR] /C:/Users/VISHWAS/Downloads/project/project/src/main/java/com/klu/project/dto/response/ApiResponse.java:[40,27] cannot find symbol
+[ERROR]   symbol:   method <T>builder()
+[ERROR]   location: class com.klu.project.dto.response.ApiResponse
+[ERROR] /C:/Users/VISHWAS/Downloads/project/project/src/main/java/com/klu/project/controller/AuthController.java:[65,45] cannot find symbol
+[ERROR]   symbol:   method getCurrentPassword()
+[ERROR]   location: variable request of type @jakarta.validation.Valid com.klu.project.dto.request.ChangePasswordRequestDTO
+[ERROR] /C:/Users/VISHWAS/Downloads/project/project/src/main/java/com/klu/project/controller/AuthController.java:[69,56] cannot find symbol
+[ERROR]   symbol:   method getNewPassword()
+[ERROR]   location: variable request of type @jakarta.validation.Valid com.klu.project.dto.request.ChangePasswordRequestDTO
+[ERROR] /C:/Users/VISHWAS/Downloads/project/project/src/main/java/com/klu/project/service/impl/AttendanceServiceImpl.java:[51,58] cannot find symbol
+[ERROR]   symbol:   method getCourseId()
+[ERROR]   location: variable request of type com.klu.project.dto.request.AttendanceRequestDTO
+[ERROR] /C:/Users/VISHWAS/Downloads/project/project/src/main/java/com/klu/project/service/impl/AttendanceServiceImpl.java:[52,89] cannot find symbol
+[ERROR]   symbol:   method getCourseId()
+[ERROR]   location: variable request of type com.klu.project.dto.request.AttendanceRequestDTO
+[ERROR] /C:/Users/VISHWAS/Downloads/project/project/src/main/java/com/klu/project/service/impl/AttendanceServiceImpl.java:[56,71] cannot find symbol
+[ERROR]   symbol:   method getRecords()
+[ERROR]   location: variable request of type com.klu.project.dto.request.AttendanceRequestDTO
+[ERROR] /C:/Users/VISHWAS/Downloads/project/project/src/main/java/com/klu/project/service/impl/AttendanceServiceImpl.java:[57,58] cannot find symbol
+[ERROR]   symbol:   method getStudentId()
+[ERROR]   location: variable record of type com.klu.project.dto.request.AttendanceRequestDTO.AttendanceRecordDTO
+[ERROR] /C:/Users/VISHWAS/Downloads/project/project/src/main/java/com/klu/project/service/impl/AttendanceServiceImpl.java:[58,93] cannot find symbol
+[ERROR]   symbol:   method getStudentId()
+[ERROR]   location: variable record of type com.klu.project.dto.request.AttendanceRequestDTO.AttendanceRecordDTO
+[ERROR] /C:/Users/VISHWAS/Downloads/project/project/src/main/java/com/klu/project/service/impl/AttendanceServiceImpl.java:[61,61] cannot find symbol
+[ERROR]   symbol:   method getDate()
+[ERROR]   location: variable request of type com.klu.project.dto.request.AttendanceRequestDTO
+[ERROR] /C:/Users/VISHWAS/Downloads/project/project/src/main/java/com/klu/project/service/impl/AttendanceServiceImpl.java:[62,100] cannot find symbol
+[ERROR]   symbol:   method getDate()
+[ERROR]   location: variable request of type com.klu.project.dto.request.AttendanceRequestDTO
+[ERROR] /C:/Users/VISHWAS/Downloads/project/project/src/main/java/com/klu/project/service/impl/AttendanceServiceImpl.java:[69,28] cannot find symbol
+[ERROR]   symbol:   method getDate()
+[ERROR]   location: variable request of type com.klu.project.dto.request.AttendanceRequestDTO
+[ERROR] /C:/Users/VISHWAS/Downloads/project/project/src/main/java/com/klu/project/service/impl/AttendanceServiceImpl.java:[70,52] cannot find symbol
+[ERROR]   symbol:   method getStatus()
+[ERROR]   location: variable record of type com.klu.project.dto.request.AttendanceRequestDTO.AttendanceRecordDTO
+[ERROR] /C:/Users/VISHWAS/Downloads/project/project/src/main/java/com/klu/project/service/impl/AuthServiceImpl.java:[43,52] cannot find symbol
+[ERROR]   symbol:   method getUsername()
+[ERROR]   location: variable request of type com.klu.project.dto.request.RegisterRequestDTO
+[ERROR] /C:/Users/VISHWAS/Downloads/project/project/src/main/java/com/klu/project/service/impl/AuthServiceImpl.java:[44,87] cannot find symbol
+[ERROR]   symbol:   method getUsername()
+[ERROR]   location: variable request of type com.klu.project.dto.request.RegisterRequestDTO
+[ERROR] /C:/Users/VISHWAS/Downloads/project/project/src/main/java/com/klu/project/service/impl/AuthServiceImpl.java:[46,49] cannot find symbol
+[ERROR]   symbol:   method getEmail()
+[ERROR]   location: variable request of type com.klu.project.dto.request.RegisterRequestDTO
+[ERROR] /C:/Users/VISHWAS/Downloads/project/project/src/main/java/com/klu/project/service/impl/AuthServiceImpl.java:[47,84] cannot find symbol
+[ERROR]   symbol:   method getEmail()
+[ERROR]   location: variable request of type com.klu.project.dto.request.RegisterRequestDTO
+[ERROR] /C:/Users/VISHWAS/Downloads/project/project/src/main/java/com/klu/project/service/impl/AuthServiceImpl.java:[51,24] cannot find symbol
+[ERROR]   symbol:   method getUsername()
+[ERROR]   location: variable request of type com.klu.project.dto.request.RegisterRequestDTO
+[ERROR] /C:/Users/VISHWAS/Downloads/project/project/src/main/java/com/klu/project/service/impl/AuthServiceImpl.java:[52,47] cannot find symbol
+[ERROR]   symbol:   method getPassword()
+[ERROR]   location: variable request of type com.klu.project.dto.request.RegisterRequestDTO
+[ERROR] /C:/Users/VISHWAS/Downloads/project/project/src/main/java/com/klu/project/service/impl/AuthServiceImpl.java:[53,24] cannot find symbol
+[ERROR]   symbol:   method getEmail()
+[ERROR]   location: variable request of type com.klu.project.dto.request.RegisterRequestDTO
+[ERROR] /C:/Users/VISHWAS/Downloads/project/project/src/main/java/com/klu/project/service/impl/AuthServiceImpl.java:[54,24] cannot find symbol
+[ERROR]   symbol:   method getFullName()
+[ERROR]   location: variable request of type com.klu.project.dto.request.RegisterRequestDTO
+[ERROR] /C:/Users/VISHWAS/Downloads/project/project/src/main/java/com/klu/project/service/impl/AuthServiceImpl.java:[55,37] cannot find symbol
+[ERROR]   symbol:   method getRole()
+[ERROR]   location: variable request of type com.klu.project.dto.request.RegisterRequestDTO
+[ERROR] /C:/Users/VISHWAS/Downloads/project/project/src/main/java/com/klu/project/service/impl/AuthServiceImpl.java:[70,32] cannot find symbol
+[ERROR]   symbol:   method getUsername()
+[ERROR]   location: variable request of type com.klu.project.dto.request.LoginRequestDTO
+[ERROR] /C:/Users/VISHWAS/Downloads/project/project/src/main/java/com/klu/project/service/impl/AuthServiceImpl.java:[70,55] cannot find symbol
+[ERROR]   symbol:   method getPassword()
+[ERROR]   location: variable request of type com.klu.project.dto.request.LoginRequestDTO
+[ERROR] /C:/Users/VISHWAS/Downloads/project/project/src/main/java/com/klu/project/service/impl/AuthServiceImpl.java:[74,58] cannot find symbol
+[ERROR]   symbol:   method getUsername()
+[ERROR]   location: variable request of type com.klu.project.dto.request.LoginRequestDTO
+[ERROR] /C:/Users/VISHWAS/Downloads/project/project/src/main/java/com/klu/project/service/impl/ChatServiceImpl.java:[43,24] cannot find symbol
+[ERROR]   symbol:   method getGroupName()
+[ERROR]   location: variable request of type com.klu.project.dto.request.ChatMessageRequestDTO
+[ERROR] /C:/Users/VISHWAS/Downloads/project/project/src/main/java/com/klu/project/service/impl/ChatServiceImpl.java:[44,24] cannot find symbol
+[ERROR]   symbol:   method getMessage()
+[ERROR]   location: variable request of type com.klu.project.dto.request.ChatMessageRequestDTO
+[ERROR] /C:/Users/VISHWAS/Downloads/project/project/src/main/java/com/klu/project/service/impl/ChatServiceImpl.java:[49,78] cannot find symbol
+[ERROR]   symbol:   method getGroupName()
+[ERROR]   location: variable request of type com.klu.project.dto.request.ChatMessageRequestDTO
+[ERROR] /C:/Users/VISHWAS/Downloads/project/project/src/main/java/com/klu/project/service/impl/ComplaintServiceImpl.java:[43,24] cannot find symbol
+[ERROR]   symbol:   method getMessage()
+[ERROR]   location: variable request of type com.klu.project.dto.request.ComplaintRequestDTO
+[ERROR] /C:/Users/VISHWAS/Downloads/project/project/src/main/java/com/klu/project/service/impl/CourseServiceImpl.java:[59,50] cannot find symbol
+[ERROR]   symbol:   method getCode()
+[ERROR]   location: variable request of type com.klu.project.dto.request.CourseRequestDTO
+[ERROR] /C:/Users/VISHWAS/Downloads/project/project/src/main/java/com/klu/project/service/impl/CourseServiceImpl.java:[60,90] cannot find symbol
+[ERROR]   symbol:   method getCode()
+[ERROR]   location: variable request of type com.klu.project.dto.request.CourseRequestDTO
+[ERROR] /C:/Users/VISHWAS/Downloads/project/project/src/main/java/com/klu/project/service/impl/CourseServiceImpl.java:[64,24] cannot find symbol
+[ERROR]   symbol:   method getName()
+[ERROR]   location: variable request of type com.klu.project.dto.request.CourseRequestDTO
+[ERROR] /C:/Users/VISHWAS/Downloads/project/project/src/main/java/com/klu/project/service/impl/CourseServiceImpl.java:[65,24] cannot find symbol
+[ERROR]   symbol:   method getCode()
+[ERROR]   location: variable request of type com.klu.project.dto.request.CourseRequestDTO
+[ERROR] /C:/Users/VISHWAS/Downloads/project/project/src/main/java/com/klu/project/service/impl/CourseServiceImpl.java:[96,58] cannot find symbol
+[ERROR]   symbol:   method getCourseId()
+[ERROR]   location: variable request of type com.klu.project.dto.request.EnrollmentRequestDTO
+[ERROR] /C:/Users/VISHWAS/Downloads/project/project/src/main/java/com/klu/project/service/impl/CourseServiceImpl.java:[97,89] cannot find symbol
+[ERROR]   symbol:   method getCourseId()
+[ERROR]   location: variable request of type com.klu.project.dto.request.EnrollmentRequestDTO
+[ERROR] /C:/Users/VISHWAS/Downloads/project/project/src/main/java/com/klu/project/service/impl/GradeServiceImpl.java:[49,55] cannot find symbol
+[ERROR]   symbol:   method getStudentId()
+[ERROR]   location: variable request of type com.klu.project.dto.request.GradeRequestDTO
+[ERROR] /C:/Users/VISHWAS/Downloads/project/project/src/main/java/com/klu/project/service/impl/GradeServiceImpl.java:[50,90] cannot find symbol
+[ERROR]   symbol:   method getStudentId()
+[ERROR]   location: variable request of type com.klu.project.dto.request.GradeRequestDTO
+[ERROR] /C:/Users/VISHWAS/Downloads/project/project/src/main/java/com/klu/project/service/impl/GradeServiceImpl.java:[52,58] cannot find symbol
+[ERROR]   symbol:   method getCourseId()
+[ERROR]   location: variable request of type com.klu.project.dto.request.GradeRequestDTO
+[ERROR] /C:/Users/VISHWAS/Downloads/project/project/src/main/java/com/klu/project/service/impl/GradeServiceImpl.java:[53,89] cannot find symbol
+[ERROR]   symbol:   method getCourseId()
+[ERROR]   location: variable request of type com.klu.project.dto.request.GradeRequestDTO
+[ERROR] /C:/Users/VISHWAS/Downloads/project/project/src/main/java/com/klu/project/service/impl/GradeServiceImpl.java:[62,24] cannot find symbol
+[ERROR]   symbol:   method getMarks()
+[ERROR]   location: variable request of type com.klu.project.dto.request.GradeRequestDTO
+[ERROR] /C:/Users/VISHWAS/Downloads/project/project/src/main/java/com/klu/project/service/impl/GradeServiceImpl.java:[63,24] cannot find symbol
+[ERROR]   symbol:   method getGrade()
+[ERROR]   location: variable request of type com.klu.project.dto.request.GradeRequestDTO
+[ERROR] /C:/Users/VISHWAS/Downloads/project/project/src/main/java/com/klu/project/service/impl/GradeServiceImpl.java:[64,44] cannot find symbol
+[ERROR]   symbol:   method getStatus()
+[ERROR]   location: variable request of type com.klu.project.dto.request.GradeRequestDTO
+[ERROR] /C:/Users/VISHWAS/Downloads/project/project/src/main/java/com/klu/project/service/impl/GradeServiceImpl.java:[69,24] cannot find symbol
+[ERROR]   symbol:   method getGrade()
+[ERROR]   location: variable request of type com.klu.project.dto.request.GradeRequestDTO
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
