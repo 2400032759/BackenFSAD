@@ -68,6 +68,7 @@ public class SecurityConfig {
                 .requestMatchers(HttpMethod.POST, "/api/courses/assign-student").hasAnyRole("ADMIN", "ADMINISTRATOR")
                 .requestMatchers(HttpMethod.DELETE, "/api/courses/remove-enrollment").hasAnyRole("ADMIN", "ADMINISTRATOR")
                 .requestMatchers(HttpMethod.GET, "/api/courses/users-by-role").hasAnyRole("ADMIN", "ADMINISTRATOR")
+                .requestMatchers("/api/files/**").authenticated()
 
                 // Student-only endpoints
                 .requestMatchers("/api/student/**").hasRole("STUDENT")

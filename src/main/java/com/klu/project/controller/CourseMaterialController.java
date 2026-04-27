@@ -18,7 +18,6 @@ import org.springframework.web.multipart.MultipartFile;
 import java.util.List;
 
 @RestController
-@RequestMapping("/api/faculty/handouts")
 @Tag(name = "Course Materials", description = "Upload and manage handouts APIs")
 public class CourseMaterialController {
 
